@@ -1,0 +1,110 @@
+/* elements */
+
+:root {
+    --info: #0eb5a8;
+    --success: #0aab22;
+    --error: #d60909;
+    --dark: #292929;
+    --light: #f0f0f0;
+    --warning: #f5d400;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 0;
+    margin-bottom: 0.65rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* table styles */
+
+.table {}
+
+/* button styles */
+
+.button {
+    border: none;
+    padding: 0.35rem 0.75rem 0.35rem 0.75rem;
+    background: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.button-info {
+    background-color: var(--info);
+    color: white;
+}
+
+.button-info:hover {
+    background-color: #0b9e93;
+}
+
+.button-success {
+    background-color: var(--success);
+    color: white;
+}
+
+.button-success:hover {
+    background-color: #0a8f1c;
+}
+
+.button-error {
+    background-color: var(--error);
+    color: white;
+}
+
+.button-error:hover {
+    background-color: #ba0606;
+}
+
+.button-dark {
+    background-color: var(--dark);
+    color: white;
+}
+
+.button-dark:hover {
+    background-color: #616161;
+}
+
+.button-light {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.button-light:hover {
+    background-color: #e6e6e6;
+}
+
+.button-warning {
+    background-color: var(--warning);
+    color: var(--dark);
+}
+
+.button-warning:hover {
+    background-color: #edcd00;
+}
